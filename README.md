@@ -34,6 +34,7 @@ Then clone this repo and run some install scripts!
 * Spotify
 
 ### Developer
+* vim
 * zsh
 * Oh-my-zsh
 * Jekyll
