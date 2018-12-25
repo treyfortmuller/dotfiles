@@ -37,6 +37,8 @@ Then clone this repo and run some install scripts!
 * zsh
 * Oh-my-zsh
 * Jekyll
+* yEd
+* Arduino 
 
 ## After Package Installs
 * Run the Unity Tweak Tool, in "search", uncheck "Search online sources" and Show "More Suggestions".
