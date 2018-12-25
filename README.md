@@ -25,6 +25,7 @@ Then clone this repo and run some install scripts!
 * VLC Media Player
 * Synaptic Package Manager
 * FileZilla
+* Flux
 
 ### Desktop
 * Slack
