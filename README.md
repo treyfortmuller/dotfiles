@@ -28,6 +28,7 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 * Synaptic Package Manager
 * FileZilla
 * Flux
+* VirtualBox
 
 ### Desktop
 * Slack
