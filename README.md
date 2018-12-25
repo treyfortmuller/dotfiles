@@ -5,7 +5,7 @@ First install git
 
 ```sudo apt install git```
 
-Then clone this repo and run some install scripts!
+Then clone this repo. Add executable permissions to each scripts with ```chmod +x utility_install.sh``` for example. Then run the scripts as root, ```sudo ./utility_install.sh```.
 
 ## Scripts
 
