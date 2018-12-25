@@ -10,7 +10,7 @@ apt install htop -y
 
 add-apt-repository ppa:nathan-renniewaldock/flux
 apt update
-apt install redshift -y
+apt install fluxgui -y
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -

@@ -27,7 +27,7 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 * VLC Media Player
 * Synaptic Package Manager
 * FileZilla
-* Redshift
+* Flux
 * htop
 
 ### Desktop
