@@ -13,12 +13,7 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 * Mahjongg
 * Mines
 * Aisle Riot Solitaire
-* Sudoku
-* Empathy Messaging
-* Google drive scope for Unity
-* Brasero Disk Burner
-* Flash (installed Google Chrome instead)
-* Amazon
+* Ubuntu Web Browser
 
 ### Utility
 * Unity Tweak Tool
@@ -50,7 +45,9 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 ## ThinkPad X1 Carbon Specifics
 * The Arch Linux [wiki entry](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X1_Carbon_(Gen_6)) for the X1C has detailed information on fixing two big problems with Linux on the machine.
   * Waking from S3 (suspend to RAM) sleep state
+  	* I followed the instructions to adjust the BIOS settings to support S3 sleep state in Linux.
+  	* I followed the instructions to enable Thunderbolt BIOS Assit Mode
   * Throttling issues causing super conservative thermal management comapred to Windows.
+  	* I ran the lenovo-throttling-fix-git instructions and disabled the in-built ```thermald``` thermal management service.
 * Kernpanik's [blog](http://kernpanik.com/geekstuff/2014/12/29/installing-ubuntu-on-thinkpad-x1-carbon-pt4.html) has a great list of setup steps for Ubuntu on the X1C.
 
- 
