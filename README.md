@@ -51,5 +51,5 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
   	* I ran the lenovo-throttling-fix-git instructions and disabled the in-built ```thermald``` thermal management service.
 * Kernpanik's [blog](http://kernpanik.com/geekstuff/2014/12/29/installing-ubuntu-on-thinkpad-x1-carbon-pt4.html) has a great list of setup steps for Ubuntu on the X1C.
 * Jeremy Cheng has a good [Medium article](https://medium.com/@hkdb/ubuntu-18-04-on-lenovo-x1-carbon-6g-d99d5667d4d5) on setting up the X1C with Ubuntu for optimal performance/battery life.
- * I installed intel-microcode as per his instructions ```sudo apt install intel-microcode```
- * I installed several packages related to power managment in Ubuntu as per his instructions, ```sudo apt-get install tlp tlp-rdw acpi-call-dkms tp-smapi-dkms acpi-call-dkms```
+  * I installed intel-microcode as per his instructions ```sudo apt install intel-microcode```
+  * I installed several packages related to power managment in Ubuntu as per his instructions, ```sudo apt-get install tlp tlp-rdw acpi-call-dkms tp-smapi-dkms acpi-call-dkms```
