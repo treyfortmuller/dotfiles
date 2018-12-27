@@ -13,7 +13,6 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 * Mahjongg
 * Mines
 * Aisle Riot Solitaire
-* Ubuntu Web Browser
 
 ### Utility
 * Unity Tweak Tool
