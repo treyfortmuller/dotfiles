@@ -56,6 +56,7 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
   
 ## Macbook Pro Specifics
 * Reinstate reFIND as the boot manager from Ubuntu, a link [here](https://askubuntu.com/questions/698606/refind-menu-not-showing-on-a-dual-mac-ubuntu-machine).
+  * The boot order is usually screwed up by Ubuntu firmware updates, you can fix this so reFIND is presented with ```sudo efibootmgr -o 80,1```.
 * Secondary click on the Macbook Pro:
 
 ```synclient RightButtonAreaLeft=3068```
