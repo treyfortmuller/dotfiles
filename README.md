@@ -40,7 +40,6 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 * Run the Unity Tweak Tool, in "search", uncheck "Search online sources" and "Show More Suggestions" to avoid privacy invading nonsense in the ubuntu search.
 * Configure plug-ins and themes for Oh-my-zsh, check the [repo](https://github.com/robbyrussell/oh-my-zsh) for details.
 
-
 ## ThinkPad X1 Carbon Specifics
 * The Arch Linux [wiki entry](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X1_Carbon_(Gen_6)) for the X1C has detailed information on fixing two big problems with Linux on the machine.
   * Waking from S3 (suspend to RAM) sleep state
@@ -54,3 +53,20 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
   * I installed intel-microcode as per his instructions ```sudo apt install intel-microcode```
   * Disable Secure Boot in BIOS to allow the below packages to be installed.
   * I installed several packages related to power managment in Ubuntu as per his instructions, ```sudo apt-get install tlp tlp-rdw acpi-call-dkms tp-smapi-dkms acpi-call-dkms```
+  
+## Macbook Pro Specifics
+* Reinstate reFIND as the boot manager from Ubuntu, a link [here](https://askubuntu.com/questions/698606/refind-menu-not-showing-on-a-dual-mac-ubuntu-machine).
+* Secondary click on the Macbook Pro:
+
+```synclient RightButtonAreaLeft=3068```
+
+```synclient RightButtonAreaRight=0```
+
+```synclient RightButtonAreaTop=4326```
+
+```synclient RightButtonAreaBottom=0```
+
+## Connecting to Airbears
+* Instructions for many Linux distributions [here](https://github.com/chrisjeng/AirBears2).
+
+
