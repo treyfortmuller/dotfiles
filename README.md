@@ -70,4 +70,17 @@ Then clone this repo. Add executable permissions to each scripts with ```chmod +
 ## Connecting to Airbears
 * Instructions for many Linux distributions [here](https://github.com/chrisjeng/AirBears2).
 
+## Reference
+* After having used Etcher to flash a USB drive with an image to install Linux, Mac OS's Disk Utility won't be able to erase it to make it usable again. We can accomplish this from the command line:
+
+```cd /dev```
+
+```diskutil list```
+
+Now find the disk you're looking for... don't screw this up.
+
+```diskutil eraseDisk MS-DOS NAME_OF_DRIVE /dev/diskN```
+
+Where ```NAME_OF_DRIVE``` is what you want the drive to be called, and ```N``` is the disk number listed by ```diskutil```.
+
 
