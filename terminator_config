@@ -1,0 +1,26 @@
+[global_config]
+  title_inactive_bg_color = "#657b83"
+  title_inactive_fg_color = "#93a1a1"
+  title_transmit_bg_color = "#002b36"
+  title_transmit_fg_color = "#93a1a1"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_image = None
+    cursor_color = "#93a1a1"
+    font = Ubuntu Mono 13
+    foreground_color = "#ffffff"
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+    use_system_font = False
+

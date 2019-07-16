@@ -5,3 +5,4 @@ BASEDIR=$(dirname $0)
 cd $BASEDIR
 
 ln -sfv ${PWD}/vimrc ~/.vimrc
+ln -sfv ${PWD}/terminator_config ~/.config/terminator/config
