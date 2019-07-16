@@ -1,11 +1,5 @@
-# ubuntu_install_scripts
-Convenience scripts for bulk installation of my commonly used packages in Ubuntu 16.04 LTS.
-
-First install git
-
-```sudo apt install git```
-
-Then clone this repo. Add executable permissions to each scripts with ```chmod +x utility_install.sh``` for example. Then run the scripts as root, ```sudo ./utility_install.sh```.
+# dotfiles
+Dotfiles and install scripts for the basics in an Ubuntu based linux machine.
 
 ## Scripts
 
