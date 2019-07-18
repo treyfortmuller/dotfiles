@@ -10,6 +10,7 @@ alias c="clear"
 alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
+alias dots="cd ~/Dev/dotfiles"
 
 # youtube music download script
 alias yt_music="python ~/Dev/youtube_music/yt_music.py"
@@ -22,4 +23,9 @@ alias barc_ft="sftp odroid@10.0.0.1"
 alias v2v_white="ssh ubuntu@white_pi"
 alias v2v_red="ssh ubuntu@red_pi"
 alias v2v_black="ssh ubuntu@black_pi"
+
+FILE=~/.aliases.local.zsh
+if test -f "$FILE"; then
+	source $FILE
+fi
 
