@@ -1,6 +1,9 @@
 # dotfiles
 Dotfiles and install scripts for the basics in an Ubuntu based linux machine. Some notes on extra configuration on a machine basis are below.
 
+run `sudo ./setup.sh` for dotfile linking
+then `./install_all.sh` for software installation
+
 ## ThinkPad X1 Carbon Specifics
 * The Arch Linux [wiki entry](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X1_Carbon_(Gen_6)) for the X1C has detailed information on fixing two big problems with Linux on the machine.
   * Waking from S3 (suspend to RAM) sleep state
