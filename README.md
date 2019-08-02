@@ -1,38 +1,5 @@
 # dotfiles
-Dotfiles and install scripts for the basics in an Ubuntu based linux machine.
-
-## Scripts
-
-### Remove Unneccesary Packages
-* Mahjongg
-* Mines
-* Aisle Riot Solitaire
-
-### Utility
-* Unity Tweak Tool
-* Terminator
-* Sublime Text 3
-* VLC Media Player
-* Synaptic Package Manager
-* FileZilla
-* Redshift
-* htop
-
-### Desktop
-* Slack
-* Spotify
-
-### Developer
-* vim
-* curl
-* zsh
-* Oh-my-zsh
-* Jekyll
-* Arduino 
-
-## After Package Installs
-* Run the Unity Tweak Tool, in "search", uncheck "Search online sources" and "Show More Suggestions" to avoid privacy invading nonsense in the ubuntu search.
-* Configure plug-ins and themes for Oh-my-zsh, check the [repo](https://github.com/robbyrussell/oh-my-zsh) for details.
+Dotfiles and install scripts for the basics in an Ubuntu based linux machine. Some notes on extra configuration on a machine basis are below.
 
 ## ThinkPad X1 Carbon Specifics
 * The Arch Linux [wiki entry](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X1_Carbon_(Gen_6)) for the X1C has detailed information on fixing two big problems with Linux on the machine.
