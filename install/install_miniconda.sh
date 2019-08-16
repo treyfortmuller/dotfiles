@@ -7,3 +7,5 @@ rm ./miniconda.sh
 echo "PATH=\$PATH:\$HOME/miniconda/bin" >> ~/.bashrc
 echo "PATH=\$PATH:\$HOME/miniconda/bin" >> ~/.zshrc
 
+conda config --set auto_activate_base false
+

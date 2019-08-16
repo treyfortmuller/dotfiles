@@ -2,8 +2,12 @@
 Dotfiles and install scripts for the basics in an Ubuntu based linux machine. Some notes on extra configuration on a machine basis are below.
 
 * run `./install_all.sh` for software installation
-
 * then `sudo ./setup.sh` for dotfile linking
+
+### TODO:
+
+* fix `install_all.sh`, some bug right now
+* check out `install_miniconda.sh` to make sure that config is working
 
 ## ThinkPad X1 Carbon Specifics
 * The Arch Linux [wiki entry](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X1_Carbon_(Gen_6)) for the X1C has detailed information on fixing two big problems with Linux on the machine.
