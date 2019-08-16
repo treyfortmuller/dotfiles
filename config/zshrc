@@ -96,3 +96,5 @@ FILE=~/.zshrc.local
 if test -f "$FILE"; then
     source $FILE
 fi
+
+PATH=$PATH:$HOME/miniconda/bin
