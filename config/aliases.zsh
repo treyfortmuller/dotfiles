@@ -24,6 +24,9 @@ alias v2v_white="ssh ubuntu@white_pi"
 alias v2v_red="ssh ubuntu@red_pi"
 alias v2v_black="ssh ubuntu@black_pi"
 
+# git
+# alias gitignore_update="git rm -r cached . && git add . && git commit -m \"gitignore fix\""
+
 FILE=~/.aliases.local.zsh
 if test -f "$FILE"; then
 	source $FILE
