@@ -11,6 +11,8 @@ alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
 alias dots="cd ~/Dev/dotfiles"
+alias wiki="mdbook serve ~/Dev/wiki_trey --open"
+alias cdwiki="cd ~/Dev/wiki_trey"
 
 # youtube music download script
 alias yt_music="python ~/Dev/youtube_music/yt_music.py"
