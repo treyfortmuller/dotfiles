@@ -1,3 +1,6 @@
+# current
+alias tr="cd ~/Dev/trajectory-rust"
+
 # basics
 alias markdown="typora"
 alias mkd="markdown"
