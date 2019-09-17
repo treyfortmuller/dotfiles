@@ -97,3 +97,6 @@ if test -f "$FILE"; then
     source $FILE
 fi
 
+# git, etc editor to Vim 
+export VISUAL=vim
+export EDITOR="$VISUAL"
