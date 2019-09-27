@@ -29,6 +29,9 @@ alias v2v_black="ssh ubuntu@black_pi"
 # rust
 alias toml="vim ./Cargo.toml"
 
+# python
+alias venv="source ./venv/bin/activate" # activate the venv called "venv"
+
 FILE=~/.aliases.local.zsh
 if test -f "$FILE"; then
 	source $FILE

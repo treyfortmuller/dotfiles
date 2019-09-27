@@ -17,7 +17,6 @@
 [profiles]
   [[default]]
     background_color = "#002b36"
-    background_image = None
     cursor_color = "#93a1a1"
     font = Ubuntu Mono 13
     foreground_color = "#ffffff"
