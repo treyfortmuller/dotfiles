@@ -17,10 +17,6 @@ alias cdwiki="cd ~/Dev/wiki_trey/src"
 # youtube music download script
 alias yt_music="python ~/Dev/youtube_music/yt_music.py"
 
-# me131 BARC car SSH
-alias barc="ssh odroid@10.0.0.1"
-alias barc_ft="sftp odroid@10.0.0.1"
-
 # UAVs@B v2v quads
 alias v2v_white="ssh ubuntu@white_pi"
 alias v2v_red="ssh ubuntu@red_pi"
