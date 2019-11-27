@@ -100,3 +100,4 @@ fi
 # git, etc editor to Vim 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export PATH=$PATH:$HOME/go/bin

@@ -26,6 +26,9 @@ alias v2v_white="ssh ubuntu@white_pi"
 alias v2v_red="ssh ubuntu@red_pi"
 alias v2v_black="ssh ubuntu@black_pi"
 
+# C++
+alias bdc="mkdir build && cd build && cmake .."
+
 # rust
 alias toml="vim ./Cargo.toml"
 
