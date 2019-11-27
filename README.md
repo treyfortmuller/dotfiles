@@ -24,16 +24,17 @@ Dotfiles and install scripts for the basics in an Ubuntu based linux machine. So
   
 ## Macbook Pro Specifics
 * Reinstate reFIND as the boot manager from Ubuntu, a link [here](https://askubuntu.com/questions/698606/refind-menu-not-showing-on-a-dual-mac-ubuntu-machine).
+  
   * The boot order is usually screwed up by Ubuntu firmware updates, you can fix this so reFIND is presented with ```sudo efibootmgr -o 80,1```.
 * Secondary click on the Macbook Pro:
 
-```synclient RightButtonAreaLeft=3068```
+  ```synclient RightButtonAreaLeft=3068```
 
-```synclient RightButtonAreaRight=0```
+  ```synclient RightButtonAreaRight=0```
 
-```synclient RightButtonAreaTop=4326```
+  ```synclient RightButtonAreaTop=4326```
 
-```synclient RightButtonAreaBottom=0```
+  ```synclient RightButtonAreaBottom=0```
 
 ## Connecting to Airbears
 * Instructions for many Linux distributions [here](https://github.com/chrisjeng/AirBears2).
@@ -41,13 +42,13 @@ Dotfiles and install scripts for the basics in an Ubuntu based linux machine. So
 ## Reference
 * After having used Etcher to flash a USB drive with an image to install Linux, Mac OS's Disk Utility won't be able to erase it to make it usable again. We can accomplish this from the command line:
 
-```cd /dev```
+  ```cd /dev```
 
-```diskutil list```
+  ```diskutil list```
 
-Now find the disk you're looking for... don't screw this up.
+* Now find the disk you're looking for... don't screw this up.
 
-```diskutil eraseDisk MS-DOS NAME_OF_DRIVE /dev/diskN```
+  ```diskutil eraseDisk MS-DOS NAME_OF_DRIVE /dev/diskN```
 
 Where ```NAME_OF_DRIVE``` is what you want the drive to be called, and ```N``` is the disk number listed by ```diskutil```.
 
