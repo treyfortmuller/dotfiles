@@ -1,6 +1,12 @@
 #!/bin/bash
 
-for file in /install/ do
-    bash "$file"
+BASEDIR=$(dirname $0)
+
+FILES=$BASEDIR/install/*
+
+for file in $FILES
+do
+    echo "Running $file..."
+    source $file
 done
 
