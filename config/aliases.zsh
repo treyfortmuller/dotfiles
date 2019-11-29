@@ -4,6 +4,7 @@ alias mkd="markdown"
 alias rc="vim ~/.zshrc"
 alias op="xdg-open &> /dev/null" # redirects errors away
 alias aliases="sudo vim $ZSH_CUSTOM/aliases.zsh"
+alias local-aliases="sudo vim ~/.aliases.local.zsh"
 alias sourcerc="source ~/.zshrc"
 alias clock="tty-clock -b -t -c"
 alias c="clear"
@@ -11,6 +12,21 @@ alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
 alias dots="cd ~/sources/dotfiles"
+
+# fast and loose git
+function git_quick()
+{
+    if [[ $# -eq 0 ]] ; then
+    	echo "Add a commit message! Ex:"
+    	echo "gq \"I wrote some code...\""
+    else
+    	git add --all
+    	git status
+        git commit -m $1
+    fi
+}
+alias gq=git_quick
+alias gs="git status -s"
 
 # wiki_trey
 alias wiki="mdbook serve ~/sources/wiki_trey --open"
