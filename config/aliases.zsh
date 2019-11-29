@@ -10,12 +10,12 @@ alias c="clear"
 alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
-alias dots="cd ~/Dev/dotfiles"
-alias wiki="mdbook serve ~/Dev/wiki_trey --open"
-alias cdwiki="cd ~/Dev/wiki_trey/src"
+alias dots="cd ~/sources/dotfiles"
+alias wiki="mdbook serve ~/sources/wiki_trey --open"
+alias cdwiki="cd ~/sources/wiki_trey/src"
 
 # youtube music download script
-alias yt_music="python ~/Dev/youtube_music/yt_music.py"
+alias yt_music="python ~/sources/youtube_music/yt_music.py"
 
 # UAVs@B v2v quads
 alias v2v_white="ssh ubuntu@white_pi"

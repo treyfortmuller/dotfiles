@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "workbench.statusBar.visible": false,
     "peacock.favoriteColors": [
         {
@@ -58,6 +58,7 @@
     "C_Cpp.updateChannel": "Insiders",
     "workbench.colorTheme": "Nord",
     "editor.formatOnSave": true,
+    "clang-format.executable": "/nix/store/1ayczh8kn7xnyivs9dvknxqzf5c066sw-clang-8.0.0/bin/clang-format",
     "files.insertFinalNewline": true,
     "python.formatting.provider": "black",
     "python.formatting.blackPath": "/home/trey/.local/bin/black",
