@@ -11,3 +11,8 @@ ln -sfv ${PWD}/config/zshrc ~/.zshrc
 ln -sfv ${PWD}/config/gitconfig ~/.gitconfig
 ln -sfv ${PWD}/config/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 ln -sfv ${PWD}/config/vscode/settings.json ~/.config/Code/User/settings.json
+
+# regolith setup
+ln -sfv ${PWD}/config/regolith/Xresources-regolith ~/.Xresources-regolith
+mkdir -p ~/.Xresources.d # make this directory if it doesn't exist already
+ln -sfv ${PWD}/config/regolith/color-solarized-dark ~/.Xresources.d/color-solarized-dark

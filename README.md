@@ -101,6 +101,6 @@ To uninstall an extension from the command line
 code --uninstall-extension (<extension-id> | <extension-vsix-path>)
 ```
 
+### Regolith Config
 
-
-
+An overview of Regolith's config and Xresources files is available [here](https://github.com/regolith-linux/regolith-desktop/wiki/Customize).

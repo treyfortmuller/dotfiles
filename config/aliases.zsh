@@ -11,8 +11,13 @@ alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
 alias dots="cd ~/sources/dotfiles"
+
+# wiki_trey
 alias wiki="mdbook serve ~/sources/wiki_trey --open"
 alias cdwiki="cd ~/sources/wiki_trey/src"
+
+# Regolith
+alias xr-reload="xrdb -merge ~/.Xresources-regolith"
 
 # youtube music download script
 alias yt_music="python ~/sources/youtube_music/yt_music.py"
