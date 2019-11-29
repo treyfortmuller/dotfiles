@@ -17,11 +17,6 @@ alias cdwiki="cd ~/sources/wiki_trey/src"
 # youtube music download script
 alias yt_music="python ~/sources/youtube_music/yt_music.py"
 
-# UAVs@B v2v quads
-alias v2v_white="ssh ubuntu@white_pi"
-alias v2v_red="ssh ubuntu@red_pi"
-alias v2v_black="ssh ubuntu@black_pi"
-
 # C++
 alias bdc="mkdir build && cd build && cmake .."
 
@@ -31,6 +26,7 @@ alias toml="vim ./Cargo.toml"
 # python
 alias venv="source ./venv/bin/activate" # activate the venv called "venv"
 
+# Machine-specific aliases
 FILE=~/.aliases.local.zsh
 if test -f "$FILE"; then
 	source $FILE

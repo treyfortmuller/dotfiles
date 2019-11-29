@@ -71,6 +71,7 @@
         "discretization",
         "discretize",
         "llas",
+        "nolintnextline",
         "numpy",
         "octile",
         "opo",
