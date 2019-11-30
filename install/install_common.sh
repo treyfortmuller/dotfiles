@@ -4,7 +4,7 @@
 sudo apt-get update
 
 # python stuff
-sudo apt-get install python-dev python-pip python3-dev python3-pip -y
+sudo apt-get install python-dev python-pip python3-dev python3-pip python3-venv -y
 sudo pip2 install --upgrade pip
 sudo pip3 install --upgrade pip
 
