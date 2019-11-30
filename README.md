@@ -21,7 +21,10 @@ cd ./vscode_ext
 ```
 
 ## XPS 15 Specifics
-
+* Run the following to enable right-click on the touch pad (more details [here](https://askubuntu.com/questions/1028776/no-secondary-button-right-click-on-touchpad)).
+```
+gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
+```
 * Follow instructions [here](https://support.killernetworking.com/knowledge-base/killer-ax1650-in-debian-ubuntu-16-04/) to get wifi driver working: (you will need to repeat this step whenever `sudo apt update` updates your kernel). Skip the apt install instructions at the top, go straight to cloning their repos and building their driver.
 * Follow the instructions [here](https://github.com/TillmannBerg/Ubuntu-Dell-XPS-15-2019) to get brightness working.
 
