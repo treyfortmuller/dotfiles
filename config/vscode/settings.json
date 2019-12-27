@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "workbench.statusBar.visible": false,
     "peacock.favoriteColors": [
         {
@@ -70,7 +70,10 @@
         "deconfliction",
         "discretization",
         "discretize",
+        "discretized",
         "llas",
+        "nghbr",
+        "nghbrs",
         "nolintnextline",
         "numpy",
         "octile",
@@ -81,6 +84,7 @@
         "topo",
         "traj",
         "trajs",
+        "voxel",
         "xaxis",
         "yaxis",
         "zaxis"
