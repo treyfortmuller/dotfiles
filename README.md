@@ -26,7 +26,7 @@ cd ./vscode_ext
 gsettings set org.gnome.desktop.peripherals.touchpad click-method areas
 ```
 * Follow instructions [here](https://support.killernetworking.com/knowledge-base/killer-ax1650-in-debian-ubuntu-16-04/) to get wifi driver working: (you will need to repeat this step whenever `sudo apt update` updates your kernel). Skip the apt install instructions at the top, go straight to cloning their repos and building their driver.
-* Follow the instructions [here](https://github.com/TillmannBerg/Ubuntu-Dell-XPS-15-2019) to get brightness working.
+* Follow the instructions [here](https://github.com/TillmannBerg/Ubuntu-Dell-XPS-15-2019) to get screen brightness working, good tips on CPU thermal managment, etc.
 
 ## ThinkPad X1 Carbon Specifics
 * The Arch Linux [wiki entry](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X1_Carbon_(Gen_6)) for the X1C has detailed information on fixing two big problems with Linux on the machine.
