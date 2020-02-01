@@ -27,6 +27,7 @@ function git_quick()
 }
 alias gq=git_quick
 alias gs="git status -s"
+alias giturl="git remote get-url origin"
 
 # wiki_trey
 alias wiki="mdbook serve ~/sources/wiki_trey --open"
@@ -52,4 +53,3 @@ FILE=~/.aliases.local.zsh
 if test -f "$FILE"; then
 	source $FILE
 fi
-
