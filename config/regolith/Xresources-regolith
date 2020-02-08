@@ -6,11 +6,11 @@
 !#include "/etc/regolith/styles/color-solarized-dark"
 !#include "/etc/regolith/styles/color-solarized-light"
 !#include "/etc/regolith/styles/color-gruvbox"
-#include "/etc/regolith/styles/color-nord"
+!#include "/etc/regolith/styles/color-nord"
 !#include "/etc/regolith/styles/color-ayu"
 !#include "/etc/regolith/styles/color-ayu-dark"
 !#include "/etc/regolith/styles/color-ayu-mirage"
-!#include "/home/trey/.Xresources.d/color-solarized-dark"
+#include "/home/trey/.Xresources.d/color-nord"
 
 ! -- Styles - Fonts
 ! NOTE: Font packages may need to be installed when enabling typefaces.

@@ -34,6 +34,7 @@ alias wiki="mdbook serve ~/sources/wiki_trey --open"
 alias cdwiki="cd ~/sources/wiki_trey/src"
 
 # Regolith
+alias i3-config="vim ~/.config/regolith/i3/config"
 alias xr-reload="xrdb -merge ~/.Xresources-regolith"
 
 # youtube music download script
@@ -47,6 +48,9 @@ alias toml="vim ./Cargo.toml"
 
 # python
 alias venv="source ./venv/bin/activate" # activate the venv called "venv"
+
+# xclip
+alias xclip="xclip -selection c"
 
 # Machine-specific aliases
 FILE=~/.aliases.local.zsh
