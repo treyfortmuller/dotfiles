@@ -13,4 +13,4 @@ pip3 install black --user
 sudo apt-get install vim htop build-essential curl xclip qalc tree gnome-tweak-tool ack jq -y
 
 # install nonsense
-sudo apt install cmatrix cowsay fortune lolcat tty-clock neofetch
+sudo apt install cmatrix cowsay fortune lolcat tty-clock neofetch figlet
