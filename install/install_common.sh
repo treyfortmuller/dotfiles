@@ -10,4 +10,7 @@ sudo pip3 install --upgrade pip
 pip3 install black --user
 
 # install common utilities
-sudo apt-get install vim htop build-essential curl xclip cmatrix tty-clock qalc tree gnome-tweak-tool neofetch ack jq -y
+sudo apt-get install vim htop build-essential curl xclip qalc tree gnome-tweak-tool ack jq -y
+
+# install nonsense
+sudo apt install cmatrix cowsay fortune lolcat tty-clock neofetch
