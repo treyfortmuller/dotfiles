@@ -6,10 +6,10 @@ cd $BASEDIR
 
 ln -sfv ${PWD}/config/vimrc ~/.vimrc
 
-# terminal emulator
+# terminal, aliases, rc, git
 mkdir -p ~/.config/alacritty/
 ln -sfv ${PWD}/config/alacritty.yml ~/.config/alacritty/alacritty.yml
-ln -sfv ${PWD}/config/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
+ln -sfv ${PWD}/config/aliases.zsh /home/trey/.oh-my-zsh/custom/aliases.zsh
 ln -sfv ${PWD}/config/zshrc ~/.zshrc
 ln -sfv ${PWD}/config/gitconfig ~/.gitconfig
 
