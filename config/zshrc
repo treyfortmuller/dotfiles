@@ -107,4 +107,21 @@ fi
 # git, etc editor to Vim
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# nix
+export NIX_PATH=nixpkgs=/home/trey/sources/ainix/
+
+# go modules
+GOPRIVATE="ghe.anduril.dev"
 export PATH=$PATH:$HOME/go/bin
+
+# gcs-admin
+export PATH=$PATH:/home/trey/sources/gcs-admin/
+
+function intlogs {
+    helictl logs -s interceptord -d $1 -f $2 -u $3
+}
+
+function helilogs {
+    helictl logs -s dronectrl -d $1 -f $2 -u $3
+}

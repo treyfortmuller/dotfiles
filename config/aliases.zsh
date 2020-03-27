@@ -53,18 +53,14 @@ alias venv="source ./venv/bin/activate" # activate the venv called "venv"
 alias xclip="xclip -selection c"
 
 # Anduril
+# repos
 alias snk1="cd ~/sources/snk1"
 alias snk2="cd ~/sources/snk2"
 alias snk3="cd ~/sources/snk3"
 alias ainix="cd ~/sources/ainix"
 
-function intlogs {
-    ~/sources/gcs-admin/helictl logs -s interceptord -d $1 -f $2 -u $3
-}
-
-function helilogs {
-    ~/sources/gcs-admin/helictl logs -s dronectrl -d $1 -f $2 -u $3
-}
+# assets
+alias hex="~/sources/hex-convert/hex-convert.sh"
 
 # Machine-specific aliases
 FILE=~/.aliases.local.zsh
