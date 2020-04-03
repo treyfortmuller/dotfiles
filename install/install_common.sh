@@ -12,5 +12,11 @@ pip3 install black --user
 # install common utilities
 sudo apt-get install vim htop build-essential curl xclip qalc tree gnome-tweak-tool ack jq -y
 
+# install vim plugins
+mkdir -p ~/.vim/pack/plugins/start
+cd ~/.vim/pack/plugins/start
+git clone https://github.com/cespare/vim-toml.git
+cd ~
+
 # install nonsense
 sudo apt install cmatrix cowsay fortune lolcat tty-clock neofetch figlet
