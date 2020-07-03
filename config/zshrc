@@ -126,3 +126,4 @@ function helilogs {
     helictl logs -s dronectrl -d $1 -f $2 -u $3
 }
 export PATH=$PATH:/home/trey/sources/ainix/pkgs/anduril/config
+export PATH=$PATH:/home/trey/sources/ainix/pkgs/anduril/interceptor
