@@ -59,6 +59,9 @@ alias snk2="cd ~/sources/snk2"
 alias snk3="cd ~/sources/snk3"
 alias snk4="cd ~/sources/snk4"
 alias ainix="cd ~/sources/ainix"
+alias apis="cd ~/sources/andurilapis"
+
+alias bump="~/sources/bump/bump.sh"
 
 # assets
 alias hex="~/sources/hex-convert/hex-convert.sh"
