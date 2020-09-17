@@ -12,6 +12,7 @@ alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
 alias dots="cd ~/sources/dotfiles"
+alias batt=acpi
 
 # fast and loose git
 function git_quick()
@@ -42,6 +43,7 @@ alias yt_music="python ~/sources/youtube_music/yt_music.py"
 
 # C++
 alias bdc="mkdir build && cd build && cmake .."
+alias clion="~/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/clion.sh"
 
 # rust
 alias toml="vim ./Cargo.toml"
