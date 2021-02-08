@@ -12,7 +12,7 @@ alias q="qalc"
 alias clear-crash="sudo rm /var/crash/*"
 alias desktops="cd /usr/share/applications"
 alias dots="cd ~/sources/dotfiles"
-alias batt=acpi
+alias batt="acpi | grep \"Battery 0\"" 
 
 # fast and loose git
 function git_quick()
@@ -62,7 +62,7 @@ alias snk3="cd ~/sources/snk3"
 alias snk4="cd ~/sources/snk4"
 alias ainix="cd ~/sources/ainix"
 alias apis="cd ~/sources/andurilapis"
-
+alias j="journalctl"
 alias bump="~/sources/bump/bump.sh"
 
 # assets
@@ -71,8 +71,13 @@ alias hex="~/sources/hex-convert/hex-convert.sh"
 # archives
 alias untar="tar -xvf"
 
+alias down="~/sources/latticectl-shortcuts/shortcuts.sh"
+
 # Machine-specific aliases
 FILE=~/.aliases.local.zsh
 if test -f "$FILE"; then
 	source $FILE
 fi
+
+# Show the mavlink params for ArduPilot 4.0.3
+alias mav="op ~/sources/mavparams/mavparams.html"
