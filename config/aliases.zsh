@@ -28,7 +28,6 @@ function git_quick()
 }
 alias gq=git_quick
 alias gs="git status -s"
-alias giturl="git remote get-url origin"
 
 # wiki_trey
 alias wiki="mdbook serve ~/sources/wiki_trey --open"
@@ -81,3 +80,5 @@ fi
 
 # Show the mavlink params for ArduPilot 4.0.3
 alias mav="op ~/sources/mavparams/mavparams.html"
+
+alias gcs="ssh_asset a668"
