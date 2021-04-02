@@ -42,7 +42,7 @@ alias yt_music="python ~/sources/youtube_music/yt_music.py"
 
 # C++
 alias bdc="mkdir build && cd build && cmake .."
-alias clion="~/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin/clion.sh"
+alias clion="/opt/clion-2020.3.3/bin/clion.sh"
 
 # rust
 alias toml="vim ./Cargo.toml"
