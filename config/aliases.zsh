@@ -55,10 +55,7 @@ alias xclip="xclip -selection c"
 
 # Anduril
 # repos
-alias snk1="cd ~/sources/snk1"
-alias snk2="cd ~/sources/snk2"
-alias snk3="cd ~/sources/snk3"
-alias snk4="cd ~/sources/snk4"
+alias snk="cd ~/sources/snk"
 alias ainix="cd ~/sources/ainix"
 alias apis="cd ~/sources/andurilapis"
 alias j="journalctl"
