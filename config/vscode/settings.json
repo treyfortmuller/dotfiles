@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 2,
     "workbench.statusBar.visible": false,
     "peacock.favoriteColors": [
         {
@@ -90,4 +89,10 @@
         "zaxis"
     ],
     "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
 }
