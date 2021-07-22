@@ -78,3 +78,4 @@ fi
 # Show the mavlink params for ArduPilot 4.0.3
 alias mav="op ~/sources/mavparams/mavparams.html"
 alias logs="cd ~/data/interceptor_flights"
+

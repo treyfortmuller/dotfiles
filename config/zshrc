@@ -130,3 +130,13 @@ export PATH=$PATH:/home/trey/sources/ainix/pkgs/anduril/interceptor
 export PATH=$PATH:/home/trey/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/bin
 
 if [ -e /home/trey/.nix-profile/etc/profile.d/nix.sh ]; then . /home/trey/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+fbr() {
+  git fetch
+  local branches branch
+  branches=$(git branch -a) &&
+  branch=$(echo "$branches" | fzf +s +m -e) &&
+  git checkout $(echo "$branch" | sed "s:.* remotes/origin/::" | sed "s:.* ::")
+}
